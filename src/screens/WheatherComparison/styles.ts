@@ -6,4 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: theme.background,
   },
+  topSafeAreaView: {
+    backgroundColor: theme.secondary,
+  },
 });

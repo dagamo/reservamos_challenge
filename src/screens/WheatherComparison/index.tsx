@@ -5,8 +5,11 @@ import {styles} from './styles';
 
 export const WeatherComparisonScreen = () => {
   return (
-    <SafeAreaView style={styles.safeAreaView}>
-      <WeatherComparison />
-    </SafeAreaView>
+    <>
+      <SafeAreaView style={styles.topSafeAreaView} />
+      <SafeAreaView style={styles.safeAreaView}>
+        <WeatherComparison />
+      </SafeAreaView>
+    </>
   );
 };

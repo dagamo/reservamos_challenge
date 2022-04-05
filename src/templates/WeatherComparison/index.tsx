@@ -1,12 +1,12 @@
 import React from 'react';
 import {View} from 'react-native';
-import {SearchSection} from '../../components/molecules/SearchSection';
+import {Header} from '../../components/organisms/Header';
 
 export const WeatherComparison = () => {
   return (
     <>
       <View>
-        <SearchSection />
+        <Header />
       </View>
       <View></View>
     </>
