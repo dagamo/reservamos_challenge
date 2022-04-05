@@ -2,11 +2,19 @@ import React from 'react';
 import {SearchButton} from '../SearchButton';
 import {styles} from './styles';
 
-export const DestinationSearch = () => {
+interface IDestinationSearch {
+  placeholder: string;
+  onPress: () => void;
+}
+export const DestinationSearch = ({
+  placeholder,
+  onPress,
+}: IDestinationSearch) => {
   return (
     <SearchButton
-      placeholder="Ingresa el destino"
+      placeholder={placeholder}
       style={styles.destinationSearch}
+      onPress={onPress}
     />
   );
 };

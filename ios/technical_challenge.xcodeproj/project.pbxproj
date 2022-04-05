@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* technical_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* technical_challengeTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-technical_challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-technical_challenge.a */; };
+		11B65A5ADB1847F4B1772432 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB7684613CE04218933FF7D7 /* Muli-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		433BDD1E0BC44181A0F8D829 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C05A7D280934F95B1EA8CCB /* Muli-ExtraBold.ttf */; };
+		5542812F154E4EEFAD6B2B85 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE1B9A7F0524C57875E4DD7 /* Muli-Light.ttf */; };
+		7324FECAB9B04909B989B649 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0CA72963A44D08E7DC355 /* Muli-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-technical_challenge-technical_challengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-technical_challenge-technical_challengeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B74D59619084F90A7A53AFD /* Muli-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D38BF6AE91F45CB8FE17698 /* Muli-Black.ttf */; };
-		99C9092A8B4744808CD44140 /* Muli-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50EA38662F04C63AA1CD679 /* Muli-BlackItalic.ttf */; };
-		7324FECAB9B04909B989B649 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF0CA72963A44D08E7DC355 /* Muli-Bold.ttf */; };
-		D16B3A840C284E20A1FA4109 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E5AA6F49724EC58FE61008 /* Muli-BoldItalic.ttf */; };
-		433BDD1E0BC44181A0F8D829 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C05A7D280934F95B1EA8CCB /* Muli-ExtraBold.ttf */; };
-		A26C57E9661E4FB6940F23ED /* Muli-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F15A99B044572A9A2760D /* Muli-ExtraBoldItalic.ttf */; };
-		CD3D330004F24693AF9957D9 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B15B6509F04F5DA5843699 /* Muli-ExtraLight.ttf */; };
-		9962C5B11B904A64958088B1 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0860CDD0DFF5422D87A4AD77 /* Muli-ExtraLightItalic.ttf */; };
-		C3C7049632E940E89307916B /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D870BB282B4A9CB194D7E7 /* Muli-Italic.ttf */; };
-		5542812F154E4EEFAD6B2B85 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECE1B9A7F0524C57875E4DD7 /* Muli-Light.ttf */; };
-		D6D9017A35FD4EF88AF378F6 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C43F856A0E446D83E918B8 /* Muli-LightItalic.ttf */; };
 		972745CF4FD34E46903DDFB6 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04A169DF10174E34976AD1B8 /* Muli-Regular.ttf */; };
-		11B65A5ADB1847F4B1772432 /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB7684613CE04218933FF7D7 /* Muli-SemiBold.ttf */; };
+		9962C5B11B904A64958088B1 /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0860CDD0DFF5422D87A4AD77 /* Muli-ExtraLightItalic.ttf */; };
+		99C9092A8B4744808CD44140 /* Muli-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50EA38662F04C63AA1CD679 /* Muli-BlackItalic.ttf */; };
+		A26C57E9661E4FB6940F23ED /* Muli-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F15A99B044572A9A2760D /* Muli-ExtraBoldItalic.ttf */; };
+		C3C7049632E940E89307916B /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D870BB282B4A9CB194D7E7 /* Muli-Italic.ttf */; };
+		CD3D330004F24693AF9957D9 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B15B6509F04F5DA5843699 /* Muli-ExtraLight.ttf */; };
+		D16B3A840C284E20A1FA4109 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E5AA6F49724EC58FE61008 /* Muli-BoldItalic.ttf */; };
 		D258FF8C0E9F4C5880EC77F5 /* Muli-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F77E4CABE54724B482AF82 /* Muli-SemiBoldItalic.ttf */; };
+		D6D9017A35FD4EF88AF378F6 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C43F856A0E446D83E918B8 /* Muli-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,34 +44,34 @@
 		00E356EE1AD99517003FC87E /* technical_challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = technical_challengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* technical_challengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = technical_challengeTests.m; sourceTree = "<group>"; };
+		04A169DF10174E34976AD1B8 /* Muli-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Regular.ttf"; path = "../assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; };
+		0860CDD0DFF5422D87A4AD77 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-ExtraLightItalic.ttf"; path = "../assets/fonts/Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* technical_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = technical_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = technical_challenge/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = technical_challenge/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = technical_challenge/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = technical_challenge/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = technical_challenge/main.m; sourceTree = "<group>"; };
+		14F77E4CABE54724B482AF82 /* Muli-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-SemiBoldItalic.ttf"; path = "../assets/fonts/Muli-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-technical_challenge-technical_challengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-technical_challenge-technical_challengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF0CA72963A44D08E7DC355 /* Muli-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Bold.ttf"; path = "../assets/fonts/Muli-Bold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-technical_challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical_challenge.debug.xcconfig"; path = "Target Support Files/Pods-technical_challenge/Pods-technical_challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		4D38BF6AE91F45CB8FE17698 /* Muli-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Black.ttf"; path = "../assets/fonts/Muli-Black.ttf"; sourceTree = "<group>"; };
+		56D870BB282B4A9CB194D7E7 /* Muli-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Italic.ttf"; path = "../assets/fonts/Muli-Italic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-technical_challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical_challenge.release.xcconfig"; path = "Target Support Files/Pods-technical_challenge/Pods-technical_challenge.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-technical_challenge-technical_challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical_challenge-technical_challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-technical_challenge-technical_challengeTests/Pods-technical_challenge-technical_challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-technical_challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-technical_challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05A7D280934F95B1EA8CCB /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-ExtraBold.ttf"; path = "../assets/fonts/Muli-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = technical_challenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C43F856A0E446D83E918B8 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-LightItalic.ttf"; path = "../assets/fonts/Muli-LightItalic.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-technical_challenge-technical_challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical_challenge-technical_challengeTests.release.xcconfig"; path = "Target Support Files/Pods-technical_challenge-technical_challengeTests/Pods-technical_challenge-technical_challengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4F15A99B044572A9A2760D /* Muli-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-ExtraBoldItalic.ttf"; path = "../assets/fonts/Muli-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A8B15B6509F04F5DA5843699 /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-ExtraLight.ttf"; path = "../assets/fonts/Muli-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AB7684613CE04218933FF7D7 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-SemiBold.ttf"; path = "../assets/fonts/Muli-SemiBold.ttf"; sourceTree = "<group>"; };
+		D6E5AA6F49724EC58FE61008 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-BoldItalic.ttf"; path = "../assets/fonts/Muli-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E50EA38662F04C63AA1CD679 /* Muli-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-BlackItalic.ttf"; path = "../assets/fonts/Muli-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ECE1B9A7F0524C57875E4DD7 /* Muli-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Light.ttf"; path = "../assets/fonts/Muli-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		4D38BF6AE91F45CB8FE17698 /* Muli-Black.ttf */ = {isa = PBXFileReference; name = "Muli-Black.ttf"; path = "../assets/fonts/Muli-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E50EA38662F04C63AA1CD679 /* Muli-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Muli-BlackItalic.ttf"; path = "../assets/fonts/Muli-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2FF0CA72963A44D08E7DC355 /* Muli-Bold.ttf */ = {isa = PBXFileReference; name = "Muli-Bold.ttf"; path = "../assets/fonts/Muli-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D6E5AA6F49724EC58FE61008 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-BoldItalic.ttf"; path = "../assets/fonts/Muli-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6C05A7D280934F95B1EA8CCB /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraBold.ttf"; path = "../assets/fonts/Muli-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8E4F15A99B044572A9A2760D /* Muli-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraBoldItalic.ttf"; path = "../assets/fonts/Muli-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A8B15B6509F04F5DA5843699 /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraLight.ttf"; path = "../assets/fonts/Muli-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0860CDD0DFF5422D87A4AD77 /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraLightItalic.ttf"; path = "../assets/fonts/Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		56D870BB282B4A9CB194D7E7 /* Muli-Italic.ttf */ = {isa = PBXFileReference; name = "Muli-Italic.ttf"; path = "../assets/fonts/Muli-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ECE1B9A7F0524C57875E4DD7 /* Muli-Light.ttf */ = {isa = PBXFileReference; name = "Muli-Light.ttf"; path = "../assets/fonts/Muli-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		87C43F856A0E446D83E918B8 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; name = "Muli-LightItalic.ttf"; path = "../assets/fonts/Muli-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		04A169DF10174E34976AD1B8 /* Muli-Regular.ttf */ = {isa = PBXFileReference; name = "Muli-Regular.ttf"; path = "../assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB7684613CE04218933FF7D7 /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; name = "Muli-SemiBold.ttf"; path = "../assets/fonts/Muli-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		14F77E4CABE54724B482AF82 /* Muli-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-SemiBoldItalic.ttf"; path = "../assets/fonts/Muli-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 			sourceTree = "<group>";
 		};
 		DF83B9A116C641CD90E5912C /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				4D38BF6AE91F45CB8FE17698 /* Muli-Black.ttf */,
 				E50EA38662F04C63AA1CD679 /* Muli-BlackItalic.ttf */,
@@ -196,8 +196,8 @@
 				14F77E4CABE54724B482AF82 /* Muli-SemiBoldItalic.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

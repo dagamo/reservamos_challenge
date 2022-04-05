@@ -1,6 +1,11 @@
 import React from 'react';
-import {WeatherComparisonScreen} from './src/screens/WheatherComparison';
+import {NavigationContainer} from '@react-navigation/native';
+import {Main} from './src/navigation/stacks/main';
 
-const App = () => <WeatherComparisonScreen />;
+const App = () => (
+  <NavigationContainer>
+    <Main />
+  </NavigationContainer>
+);
 
 export default App;
