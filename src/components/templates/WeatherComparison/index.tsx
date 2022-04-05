@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, FlatList} from 'react-native';
-import {CountriesSelected} from '../../components/organisms/CountriesSelected';
-import {CountryCard} from '../../components/organisms/CountryCard';
-import {Header} from '../../components/organisms/Header';
+import {CountriesSelected} from '../../organisms/CountriesSelected';
+import {CountryCard} from '../../organisms/CountryCard';
+import {Header} from '../../organisms/Header';
 import {styles} from './styles';
 
 export const WeatherComparison = () => {
@@ -28,7 +28,7 @@ export const WeatherComparison = () => {
       <FlatList
         ListHeaderComponent={renderHeader}
         renderItem={renderCard}
-        data={[{}]}
+        data={[{}, {}]}
       />
     </>
   );
