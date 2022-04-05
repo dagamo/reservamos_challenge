@@ -6,11 +6,11 @@ import {styles} from './styles';
 
 export const SearchSection = () => {
   return (
-    <>
+    <View style={styles.container}>
       <View style={styles.titleContainer}>
         <Title text="Reservamos" />
       </View>
       <DestinationSearch />
-    </>
+    </View>
   );
 };

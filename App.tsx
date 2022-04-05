@@ -1,11 +1,6 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import {WeatherComparison} from './src/templates/WeatherComparison';
+import {WeatherComparisonScreen} from './src/screens/WheatherComparison';
 
-const App = () => (
-  <SafeAreaView style={{flex: 1}}>
-    <WeatherComparison />
-  </SafeAreaView>
-);
+const App = () => <WeatherComparisonScreen />;
 
 export default App;
