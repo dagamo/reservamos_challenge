@@ -5,4 +5,8 @@ export const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
   },
+  countryCardContainer: {
+    width: '100%',
+    paddingHorizontal: 5,
+  },
 });
