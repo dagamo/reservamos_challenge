@@ -6,11 +6,11 @@ import {styles} from './styles';
 
 export const SearchSection = () => {
   return (
-    <View style={styles.searchSection}>
-      <View style={{marginBottom: 20}}>
+    <>
+      <View style={styles.titleContainer}>
         <Title text="Reservamos" />
       </View>
       <DestinationSearch />
-    </View>
+    </>
   );
 };

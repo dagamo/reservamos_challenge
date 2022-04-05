@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import {fonts} from '../../../utils/fonts';
 import {theme} from '../../../utils/theme';
 import {typographyColors} from '../../../utils/typographyColors';
 
@@ -11,5 +12,6 @@ export const styles = StyleSheet.create({
   },
   text: {
     color: typographyColors.secondary,
+    fontFamily: fonts.light,
   },
 });
