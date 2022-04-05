@@ -1,6 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
+import {CountriesSelected} from '../../components/organisms/CountriesSelected';
 import {Header} from '../../components/organisms/Header';
+import {styles} from './styles';
 
 export const WeatherComparison = () => {
   return (
@@ -8,7 +10,9 @@ export const WeatherComparison = () => {
       <View>
         <Header />
       </View>
-      <View></View>
+      <View style={styles.countriesContainer}>
+        <CountriesSelected />
+      </View>
     </>
   );
 };
