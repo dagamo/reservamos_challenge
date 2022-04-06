@@ -11,8 +11,8 @@ export const HeaderBarOptions = ({
 }: HeaderBarOptionsBehaviour) => {
   return (
     <View style={styles.container}>
-      <ReadyButton onPressReady={onPressReady} />
       <WordCloseButton onPressClose={onPressClose} />
+      <ReadyButton onPressReady={onPressReady} />
     </View>
   );
 };

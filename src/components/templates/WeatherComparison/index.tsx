@@ -13,7 +13,7 @@ export const WeatherComparison = (props: ComparisonTemplateBehaviour) => {
       <>
         <Header {...header} />
         <View style={styles.countriesContainer}>
-          <CountriesSelected />
+          <CountriesSelected countries={[]} />
         </View>
       </>
     );

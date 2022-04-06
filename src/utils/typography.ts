@@ -1,3 +1,3 @@
 export const typography = {
-  h1: 30,
+  h1: 21,
 };

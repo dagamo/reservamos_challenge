@@ -4,7 +4,7 @@ import {
   createStackNavigator,
 } from '@react-navigation/stack';
 import {WeatherComparisonScreen} from '../../../screens/WheatherComparison/index';
-import {AddCountriesScreen} from '../../../screens/AddCountries';
+import {SelectionCountriesScreen} from '../../../screens/SelectionCountries';
 
 const Stack = createStackNavigator();
 export const Main = () => {
@@ -18,7 +18,7 @@ export const Main = () => {
       <Stack.Screen name="Home" component={WeatherComparisonScreen} />
       <Stack.Screen
         name="AddCountries"
-        component={AddCountriesScreen}
+        component={SelectionCountriesScreen}
         options={screenVertical}
       />
     </Stack.Navigator>
