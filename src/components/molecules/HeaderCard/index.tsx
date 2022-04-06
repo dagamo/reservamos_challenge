@@ -4,12 +4,16 @@ import {Avatar} from '../../atoms/Avatar';
 import {DescriptionCard} from '../DescriptionCard';
 import {styles} from './styles';
 
-export const HeaderCard = () => {
+interface IHeaderCard {
+  country: string;
+  cityName: string;
+}
+export const HeaderCard = ({country, cityName}: IHeaderCard) => {
   return (
     <View style={styles.container}>
       <Avatar />
       <View style={styles.descriptionContainer}>
-        <DescriptionCard title="Colombia" subtitle="Cartagena" />
+        <DescriptionCard title={country} subtitle={cityName} />
       </View>
     </View>
   );

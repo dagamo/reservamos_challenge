@@ -6,7 +6,7 @@ import {styles} from './styles';
 
 interface ICountriesSearchedList {
   countriesData: ICountry[];
-  onSelectCard: (name: string, active: boolean) => void;
+  onSelectCard: (item: ICountry, active: boolean) => void;
 }
 export const CountriesSearchedList = ({
   countriesData,
@@ -16,7 +16,7 @@ export const CountriesSearchedList = ({
     <CountrySearchedCard
       countryName={item.city_name}
       onSelect={(active: boolean) => {
-        onSelectCard(item.city_name, active);
+        onSelectCard(item, active);
       }}
     />
   );

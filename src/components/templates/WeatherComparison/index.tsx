@@ -1,27 +1,28 @@
 import React from 'react';
 import {View, FlatList} from 'react-native';
 import {ComparisonTemplateBehaviour} from '../../../behaviours/comparisonTemplate/comparisonTemplate';
+import {CountryCardInformation} from '../../../interfaces/countryWheaterInfo.interface';
 import {CountriesSelected} from '../../organisms/CountriesSelected';
 import {CountryCard} from '../../organisms/CountryCard';
 import {Header} from '../../organisms/Header';
 import {styles} from './styles';
 
 export const WeatherComparison = (props: ComparisonTemplateBehaviour) => {
-  const {header} = props;
+  const {header, countriesComparison, countriesSelected} = props;
   const renderHeader = () => {
     return (
       <>
         <Header {...header} />
         <View style={styles.countriesContainer}>
-          <CountriesSelected countries={[]} />
+          <CountriesSelected countries={countriesSelected} />
         </View>
       </>
     );
   };
-  const renderCard = () => {
+  const renderCard = ({item}: {item: CountryCardInformation}) => {
     return (
       <View style={styles.countryCardContainer}>
-        <CountryCard />
+        <CountryCard {...item} />
       </View>
     );
   };
@@ -30,7 +31,7 @@ export const WeatherComparison = (props: ComparisonTemplateBehaviour) => {
       <FlatList
         ListHeaderComponent={renderHeader}
         renderItem={renderCard}
-        data={[{}, {}]}
+        data={countriesComparison}
       />
     </>
   );

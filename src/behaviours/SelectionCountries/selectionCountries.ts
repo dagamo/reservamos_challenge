@@ -15,5 +15,5 @@ export abstract class SelectionCountriesBehaviour
     this.countriesData = countriesData;
   }
   public abstract onSearchCountry: (text: string) => void;
-  public abstract onSelectCountry: (name: string, active: boolean) => void;
+  public abstract onSelectCountry: (country: ICountry, active: boolean) => void;
 }

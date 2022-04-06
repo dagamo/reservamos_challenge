@@ -5,6 +5,7 @@ import {
 } from '@react-navigation/stack';
 import {WeatherComparisonScreen} from '../../../screens/WheatherComparison/index';
 import {SelectionCountriesScreen} from '../../../screens/SelectionCountries';
+import {WheaterComparisonProvider} from './../../../providers/WeatherProvider';
 
 const Stack = createStackNavigator();
 export const Main = () => {
@@ -14,13 +15,15 @@ export const Main = () => {
     cardStyleInterpolator: CardStyleInterpolators.forVerticalIOS,
   };
   return (
-    <Stack.Navigator headerMode="none">
-      <Stack.Screen name="Home" component={WeatherComparisonScreen} />
-      <Stack.Screen
-        name="AddCountries"
-        component={SelectionCountriesScreen}
-        options={screenVertical}
-      />
-    </Stack.Navigator>
+    <WheaterComparisonProvider>
+      <Stack.Navigator headerMode="none">
+        <Stack.Screen name="Home" component={WeatherComparisonScreen} />
+        <Stack.Screen
+          name="AddCountries"
+          component={SelectionCountriesScreen}
+          options={screenVertical}
+        />
+      </Stack.Navigator>
+    </WheaterComparisonProvider>
   );
 };
