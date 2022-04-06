@@ -1,10 +1,15 @@
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import React from 'react';
-import {Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native-safe-area-context';
+import {AddCountriesTemplate} from '../../components/templates/AddCountries';
+import {RootStackParamList} from '../../types/stackList.type';
 
-export const AddCountriesScreen = () => {
+export const AddCountriesScreen = (
+  props: NativeStackScreenProps<RootStackParamList>,
+) => {
   return (
-    <View>
-      <Text>Add countries screen</Text>
-    </View>
+    <SafeAreaView>
+      <AddCountriesTemplate {...props} />
+    </SafeAreaView>
   );
 };

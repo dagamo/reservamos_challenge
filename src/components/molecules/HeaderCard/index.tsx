@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-import {Avatar} from '../../atoms/avatar';
+import {Avatar} from '../../atoms/Avatar';
 import {DescriptionCard} from '../DescriptionCard';
 import {styles} from './styles';
 
