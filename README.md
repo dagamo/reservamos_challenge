@@ -3,14 +3,13 @@
 ### Description de la aplicacion
 
 - Se utilizo React Native para la implentacion de la aplicacion para Android y IOS
-- Se creo la maquetacion de la interfaz del usuario en Sketch
+- Se creo la maquetacion de la interfaz del usuario en Sketch, lo puede encontrar en la carpeta del proyecto screenDesign
 
 ### Recursos instalados para el enviroment de la aplicacion
 
 - Sistema Operativo Mac (para visualizar la aplicacion en IOS emulador)
 - Xcode
 - Android Studio
-- Sketch (opcional)
 
 ### Instrucciones
 
