@@ -4,6 +4,7 @@
 
 - Se utilizo React Native para la implentacion de la aplicacion para Android y IOS
 - Se creo la maquetacion de la interfaz del usuario en Sketch, lo puede encontrar en la carpeta del proyecto screenDesign
+- La arquitectura que se utilizo para la implementacion de la aplicacion fue atomic design.
 
 ### Recursos instalados para el enviroment de la aplicacion
 
