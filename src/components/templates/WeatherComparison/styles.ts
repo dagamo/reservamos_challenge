@@ -10,4 +10,9 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 5,
     marginBottom: 5,
   },
+  emptyList: {
+    height: 400,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
