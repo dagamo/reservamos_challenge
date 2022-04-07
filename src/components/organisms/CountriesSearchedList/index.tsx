@@ -1,10 +1,10 @@
 import React from 'react';
-import {Image, View} from 'react-native';
+import {View} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import {ICountry} from '../../../interfaces/country.model.interface';
 import {CountrySearchedCard} from '../../molecules/CountrySearchedCard';
 import {styles} from './styles';
-import EmptyListImage from './../../../assets/icons/empty2.png';
+import {LisEmptySelection} from '../../atoms/ListEmptyCountriesSelection';
 
 interface ICountriesSearchedList {
   countriesData: ICountry[];
@@ -28,7 +28,7 @@ export const CountriesSearchedList = ({
   const renderListEmpty = () => {
     return (
       <View style={styles.listEmpty}>
-        <Image source={EmptyListImage} />
+        <LisEmptySelection />
       </View>
     );
   };

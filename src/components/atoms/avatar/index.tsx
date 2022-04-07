@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image} from 'react-native';
-import Country from './../../../assets/icons/countryExample.png';
+import Country from './../../../assets/icons/Bitmap.png';
 
 export const Avatar = () => {
-  return <Image source={Country}></Image>;
+  return <Image source={Country} />;
 };
