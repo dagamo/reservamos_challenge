@@ -6,15 +6,18 @@ import {styles} from './styles';
 
 interface ICountriesSearchedList {
   countriesData: ICountry[];
+  isActive: (name: string) => boolean;
   onSelectCard: (item: ICountry, active: boolean) => void;
 }
 export const CountriesSearchedList = ({
   countriesData,
   onSelectCard,
+  isActive,
 }: ICountriesSearchedList) => {
   const renderItem = ({item}: {item: ICountry}) => (
     <CountrySearchedCard
       countryName={item.city_name}
+      isActive={isActive(item.city_name)}
       onSelect={(active: boolean) => {
         onSelectCard(item, active);
       }}

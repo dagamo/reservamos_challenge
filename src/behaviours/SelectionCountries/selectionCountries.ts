@@ -16,4 +16,6 @@ export abstract class SelectionCountriesBehaviour
   }
   public abstract onSearchCountry: (text: string) => void;
   public abstract onSelectCountry: (country: ICountry, active: boolean) => void;
+  public abstract onRemoveCountrySelected: (name: string) => void;
+  public abstract isCountryActived: (name: string) => boolean;
 }

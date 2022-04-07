@@ -14,8 +14,9 @@ export const WeekWeather = ({weather}: IWeekWeather) => {
       horizontal={true}
       showsHorizontalScrollIndicator={false}
       style={styles.weekContainer}>
-      {weather.map(information => (
+      {weather.map((information, index) => (
         <WeatherDescription
+          key={index}
           day={information.name}
           iconURL={information.iconUrl}
           temperatureMin={information.min}

@@ -6,4 +6,5 @@ export interface IComparisonTemplate {
   header: HeaderBehaviour;
   countriesSelected: ICountrySelected[];
   countriesComparison: CountryCardInformation[];
+  onRemoveCountrySelected(name: string): void;
 }

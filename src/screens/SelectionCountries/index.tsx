@@ -23,11 +23,13 @@ export const SelectionCountriesScreen = (
       setCountriesComparison,
     );
   return (
-    <SafeAreaView>
-      <SelectionCountriesTemplate
-        {...selectionCountriesTemplateProps}
-        navigation={props}
-      />
-    </SafeAreaView>
+    <>
+      <SafeAreaView>
+        <SelectionCountriesTemplate
+          {...selectionCountriesTemplateProps}
+          navigation={props}
+        />
+      </SafeAreaView>
+    </>
   );
 };

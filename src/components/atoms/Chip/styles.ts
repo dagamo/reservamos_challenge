@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     borderRadius: 15,
     alignItems: 'center',
-    width: 100,
     paddingHorizontal: 10,
     paddingVertical: 5,
     justifyContent: 'space-between',

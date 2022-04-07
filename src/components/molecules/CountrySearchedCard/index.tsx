@@ -6,16 +6,18 @@ import {styles} from './styles';
 
 interface ICountrySearchedCard {
   countryName: string;
+  isActive: boolean;
   onSelect: (active: boolean) => void;
 }
 export const CountrySearchedCard = ({
   countryName,
   onSelect,
+  isActive,
 }: ICountrySearchedCard) => {
   return (
     <View style={styles.cardContainer}>
       <H2 text={countryName} />
-      <RadioSelect onPressRadio={onSelect} />
+      <RadioSelect onPressRadio={onSelect} isActive={isActive} />
     </View>
   );
 };

@@ -8,13 +8,21 @@ import {Header} from '../../organisms/Header';
 import {styles} from './styles';
 
 export const WeatherComparison = (props: ComparisonTemplateBehaviour) => {
-  const {header, countriesComparison, countriesSelected} = props;
+  const {
+    header,
+    countriesComparison,
+    countriesSelected,
+    onRemoveCountrySelected,
+  } = props;
   const renderHeader = () => {
     return (
       <>
         <Header {...header} />
         <View style={styles.countriesContainer}>
-          <CountriesSelected countries={countriesSelected} />
+          <CountriesSelected
+            countries={countriesSelected}
+            onRemoveCountry={onRemoveCountrySelected}
+          />
         </View>
       </>
     );

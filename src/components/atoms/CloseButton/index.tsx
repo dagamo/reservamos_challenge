@@ -1,10 +1,14 @@
 import React from 'react';
 import {TouchableOpacity, Image} from 'react-native';
 import Close from './../../../assets/icons/close.png';
+import {styles} from './styles';
 
-export const CloseButton = () => {
+interface ICloseButton {
+  onPressClose: () => void;
+}
+export const CloseButton = ({onPressClose}: ICloseButton) => {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={onPressClose} style={styles.close}>
       <Image source={Close} />
     </TouchableOpacity>
   );

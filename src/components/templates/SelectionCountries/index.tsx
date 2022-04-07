@@ -20,17 +20,23 @@ export const SelectionCountriesTemplate = (
     countriesData,
     selectedCountries,
     onSelectCountry,
+    onRemoveCountrySelected,
+    isCountryActived,
   } = props;
   return (
     <>
       <AddCountriesHeader navigation={navigation} onSearch={onSearchCountry} />
       <View style={styles.countriesSelectedContainer}>
-        <CountriesSelected countries={selectedCountries} />
+        <CountriesSelected
+          countries={selectedCountries}
+          onRemoveCountry={onRemoveCountrySelected}
+        />
       </View>
       <View style={styles.listContainer}>
         <CountriesSearchedList
           countriesData={countriesData}
           onSelectCard={onSelectCountry}
+          isActive={isCountryActived}
         />
       </View>
     </>

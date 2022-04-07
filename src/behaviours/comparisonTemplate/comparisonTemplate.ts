@@ -9,4 +9,5 @@ export abstract class ComparisonTemplateBehaviour
   public abstract header: HeaderBehaviour;
   public abstract countriesSelected: ICountrySelected[];
   public abstract countriesComparison: CountryCardInformation[];
+  public abstract onRemoveCountrySelected: (name: string) => void;
 }

@@ -12,7 +12,6 @@ interface IWeatherDescription {
 }
 export const WeatherDescription = (props: IWeatherDescription) => {
   const {day, temperatureMax, temperatureMin, iconURL} = props;
-  console.log('Url icon', iconURL);
   return (
     <View style={styles.container}>
       <View style={styles.titleContainer}>

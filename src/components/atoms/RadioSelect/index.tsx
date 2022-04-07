@@ -5,15 +5,16 @@ import {styles} from './styles';
 
 interface IRadioSelect {
   onPressRadio: (active: boolean) => void;
+  isActive: boolean;
 }
-export const RadioSelect = ({onPressRadio}: IRadioSelect) => {
+export const RadioSelect = ({onPressRadio, isActive}: IRadioSelect) => {
   const [active, setActive] = useState(false);
 
   const onPress = () => {
     setActive(!active);
     onPressRadio(!active);
   };
-  const helperStyle = active ? styles.active : styles.inactive;
+  const helperStyle = isActive ? styles.active : styles.inactive;
   return (
     <TouchableOpacity onPress={onPress}>
       <View style={[styles.radio, helperStyle]} />

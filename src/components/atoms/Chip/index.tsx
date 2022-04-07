@@ -5,12 +5,13 @@ import {styles} from './styles';
 
 interface IChip {
   text: string;
+  onPressClose: () => void;
 }
-export const Chip = ({text}: IChip) => {
+export const Chip = ({text, onPressClose}: IChip) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>{text}</Text>
-      <CloseButton />
+      <CloseButton onPressClose={onPressClose} />
     </View>
   );
 };
