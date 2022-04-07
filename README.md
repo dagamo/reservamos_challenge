@@ -22,7 +22,9 @@
 
 4.  Para instalar los Pods correr el comando => cd ios && pod install && cd ..
 
-5.  Para correar la aplicacion correr el comando => npm run ios
+5.  Iniciar el server de la aplicacion corriendo npm start
+
+6.  Para correar la aplicacion correr el comando => npm run ios
 
 ### Features
 
