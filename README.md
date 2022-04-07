@@ -15,7 +15,7 @@
 ***https://medium.com/@pabasarajayawardhana/react-native-environment-set-up-on-mac-os-with-xcode-and-android-studio-324e64c8552e
 
 2) Clonar el repositorio ya sea ssh o url
-  *** git clone -b develop <repositoryURL>
+  *** git clone -b develop repositoryURL
 
 3) En la raiz del proyecto ejecutar npm install para instalar los modulos necesarios
 
