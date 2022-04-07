@@ -23,3 +23,8 @@
 4.  Para instalar los Pods correr el comando => cd ios && pod install && cd ..
 
 5.  Para correar la aplicacion correr el comando => npm run ios
+
+### Features
+
+1. Configurar el proyecto para correr en dispositivos en Android.
+2. Agregar loaders para los requests que se realizan.
